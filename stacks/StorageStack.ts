@@ -2,7 +2,7 @@ import { Bucket, StackContext, Table } from "sst/constructs";
 
 export function StorageStack({ stack }: StackContext) {
   // dynamodb table
-  const table = new Table(stack, "notes", {
+  const table = new Table(stack, "Notes", {
     fields: {
       userId: "string",
       noteId: "string",
