@@ -16,7 +16,7 @@ export function FrontendStack({ stack, app }: StackContext) {
       VITE_API_URL: api.url,
       VITE_REGION: app.region,
       VITE_BUCKET: bucket.bucketName,
-      VITE_USER_POOL_ID: auth.userPoolClientId,
+      VITE_USER_POOL_ID: auth.userPoolId,
       VITE_USER_POOL_CLIENT_ID: auth.userPoolClientId,
       VITE_IDENTITY_POOL_ID: auth.cognitoIdentityPoolId || "",
     },
